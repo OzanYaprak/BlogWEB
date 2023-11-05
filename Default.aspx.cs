@@ -1,9 +1,4 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Web;
-using System.Web.UI;
-using System.Web.UI.WebControls;
 
 public partial class _Default : System.Web.UI.Page
 {
@@ -24,5 +19,9 @@ public partial class _Default : System.Web.UI.Page
         DataSetTableAdapters.HobilerTableAdapter hobilerTable = new DataSetTableAdapters.HobilerTableAdapter();
         Repeater5.DataSource = hobilerTable.HobilerListele();
         Repeater5.DataBind();
+
+        DataSetTableAdapters.ÖdüllerTableAdapter ödüllerTable = new DataSetTableAdapters.ÖdüllerTableAdapter();
+        Repeater6.DataSource = ödüllerTable.ÖdüllerListele();
+        Repeater6.DataBind();
     }
 }
