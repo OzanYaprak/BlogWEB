@@ -16,6 +16,10 @@ public partial class _Default : System.Web.UI.Page
         Repeater3.DataSource = eğitimTable.EğitimListele();
         Repeater3.DataBind();
 
+        DataSetTableAdapters.YeteneklerTableAdapter yeteneklerlerTable = new DataSetTableAdapters.YeteneklerTableAdapter();
+        Repeater4.DataSource = yeteneklerlerTable.YetenekListele();
+        Repeater4.DataBind();
+
         DataSetTableAdapters.HobilerTableAdapter hobilerTable = new DataSetTableAdapters.HobilerTableAdapter();
         Repeater5.DataSource = hobilerTable.HobilerListele();
         Repeater5.DataBind();

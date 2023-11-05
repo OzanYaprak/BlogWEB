@@ -183,7 +183,7 @@
 			<div class="my-auto">
 				<h2 class="mb-5">Yetenekler</h2>
 
-				<div class="subheading mb-3">Programming Languages &amp; Tools</div>
+				<div class="subheading mb-3">Programlama Dilleri</div>
 				<ul class="list-inline dev-icons">
 					<li class="list-inline-item">
 						<i class="fab fa-html5"></i>
@@ -223,20 +223,16 @@
 					</li>
 				</ul>
 
-				<div class="subheading mb-3">Workflow</div>
+				<div class="subheading mb-3">İş Akışı</div>
 				<ul class="fa-ul mb-0">
-					<li>
-						<i class="fa-li fa fa-check"></i>
-						Mobile-First, Responsive Design</li>
-					<li>
-						<i class="fa-li fa fa-check"></i>
-						Cross Browser Testing &amp; Debugging</li>
-					<li>
-						<i class="fa-li fa fa-check"></i>
-						Cross Functional Teams</li>
-					<li>
-						<i class="fa-li fa fa-check"></i>
-						Agile Development &amp; Scrum</li>
+					<asp:Repeater ID="Repeater4" runat="server">
+						<ItemTemplate>
+							<li>
+								<i class="fa-li fa fa-check"></i>
+								<asp:Label ID="Label18" runat="server" Text='<%# Eval("Yetenek") %>'></asp:Label>
+							</li>
+						</ItemTemplate>
+					</asp:Repeater>
 				</ul>
 			</div>
 		</section>
