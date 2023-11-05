@@ -18,6 +18,6 @@ public partial class AdminTecrübeEkle : System.Web.UI.Page
 
         _context.TecrübeEkle(TextBox1.Text, TextBox2.Text, TextBox3.Text, TextBox4.Text);
 
-        Response.Redirect("Default.aspx");
+        Response.Redirect("AdminTecrübeler.aspx");
     }
 }
