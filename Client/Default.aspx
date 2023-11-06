@@ -28,7 +28,7 @@
 
 	<nav class="navbar navbar-expand-lg navbar-dark bg-primary fixed-top" id="sideNav">
 		<a class="navbar-brand js-scroll-trigger" href="#page-top">
-			<span class="d-block d-lg-none">Clarence Taylor</span>
+			<span class="d-block d-lg-none"></span>
 			<span class="d-none d-lg-block">
 				<img class="img-fluid img-profile rounded-circle mx-auto mb-2" src="ClientDosyalar/img/profile.jpg" alt="">
 			</span>
@@ -62,7 +62,6 @@
 
 	<div class="container-fluid p-0">
 
-		#region Methods
 		<%-- Hakkımda Başlangıç --%>
 		<section class="resume-section p-3 p-lg-5 d-flex d-column" id="about">
 
@@ -82,7 +81,7 @@
 							<br />
 							<asp:Label ID="Label4" runat="server" Text='<%# Eval("Telefon") %>'></asp:Label>
 							<a href="#">
-								<asp:Label ID="Label5" runat="server" Text='<%# Eval("Mail") %>'></asp:Label>
+								<asp:Label ID="Label5" runat="server" Text='<%# Eval("Mail") %>' style="margin-left:20px;"></asp:Label>
 							</a>
 						</div>
 
@@ -110,7 +109,7 @@
 			</asp:Repeater>
 
 		</section>
-		#endregion
+
 		<hr class="m-0">
 
 		<%-- Tecrübeler Başlangıç --%>
