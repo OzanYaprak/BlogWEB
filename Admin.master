@@ -45,7 +45,7 @@
 						<i class="fas fa-briefcase"></i>
 						Tecrübelerim
                     </a>
-					<a href="#pageSubmenu">
+					<a href="AdminEgitim.aspx">
 						<i class="fas fa-copy"></i>
 						Eğitim
                     </a>

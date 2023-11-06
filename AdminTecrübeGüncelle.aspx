@@ -6,7 +6,7 @@
 	<form id="form1" runat="server">
 		<div class="form-group">
 			<div>
-				<asp:Label ID="Label5" runat="server" Text="ID" CssClass=""></asp:Label>
+				<asp:Label ID="Label5" runat="server" Text="ID"></asp:Label>
 				<asp:TextBox ID="TextBoxID" runat="server" CssClass="form-control "></asp:TextBox>
 			</div>
 			<br />
@@ -30,7 +30,7 @@
 				<asp:TextBox ID="TextBoxTarih" runat="server" CssClass="form-control"></asp:TextBox>
 			</div>
 			<br />
-			<asp:Button ID="ButtonGuncelle" runat="server" Text="Güncelle" CssClass="btn btn-warning" />
+			<asp:Button ID="ButtonGuncelle" runat="server" Text="Güncelle" CssClass="btn btn-warning" OnClick="ButtonGuncelle_Click" />
 
 		</div>
 	</form>
