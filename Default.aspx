@@ -13,15 +13,15 @@
 	<title>Ozan Yaprak</title>
 
 	<!-- Bootstrap core CSS -->
-	<link href="Dosyalar/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+	<link href="ClientDosyalar/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
 
 	<!-- Custom fonts for this template -->
 	<link href="https://fonts.googleapis.com/css?family=Saira+Extra+Condensed:500,700" rel="stylesheet">
 	<link href="https://fonts.googleapis.com/css?family=Muli:400,400i,800,800i" rel="stylesheet">
-	<link href="Dosyalar/vendor/fontawesome-free/css/all.min.css" rel="stylesheet">
+	<link href="ClientDosyalar/vendor/fontawesome-free/css/all.min.css" rel="stylesheet">
 
 	<!-- Custom styles for this template -->
-	<link href="Dosyalar/css/resume.min.css" rel="stylesheet">
+	<link href="ClientDosyalar/css/resume.min.css" rel="stylesheet">
 </head>
 
 <body id="page-top">
@@ -30,7 +30,7 @@
 		<a class="navbar-brand js-scroll-trigger" href="#page-top">
 			<span class="d-block d-lg-none">Clarence Taylor</span>
 			<span class="d-none d-lg-block">
-				<img class="img-fluid img-profile rounded-circle mx-auto mb-2" src="Dosyalar/img/profile.jpg" alt="">
+				<img class="img-fluid img-profile rounded-circle mx-auto mb-2" src="ClientDosyalar/img/profile.jpg" alt="">
 			</span>
 		</a>
 		<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
@@ -62,6 +62,7 @@
 
 	<div class="container-fluid p-0">
 
+		#region Methods
 		<%-- Hakkımda Başlangıç --%>
 		<section class="resume-section p-3 p-lg-5 d-flex d-column" id="about">
 
@@ -109,7 +110,7 @@
 			</asp:Repeater>
 
 		</section>
-
+		#endregion
 		<hr class="m-0">
 
 		<%-- Tecrübeler Başlangıç --%>
@@ -275,14 +276,14 @@
 	</div>
 
 	<!-- Bootstrap core JavaScript -->
-	<script src="Dosyalar/vendor/jquery/jquery.min.js"></script>
-	<script src="Dosyalar/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+	<script src="ClientDosyalar/vendor/jquery/jquery.min.js"></script>
+	<script src="ClientDosyalar/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
 
 	<!-- Plugin JavaScript -->
-	<script src="Dosyalar/vendor/jquery-easing/jquery.easing.min.js"></script>
+	<script src="ClientDosyalar/vendor/jquery-easing/jquery.easing.min.js"></script>
 
 	<!-- Custom scripts for this template -->
-	<script src="Dosyalar/js/resume.min.js"></script>
+	<script src="ClientDosyalar/js/resume.min.js"></script>
 
 </body>
 
