@@ -6,13 +6,13 @@
 	<form id="Form1" runat="server">
 		<table class="table table-bordered">
 			<tr>
-				<th>ID</th>
-				<th>Başlık</th>
-				<th>Alt başlık</th>
-				<th>Açıklama</th>
-				<th>Genel Not Ort.</th>
-				<th>Tarih</th>
-				<th>İşlemler</th>
+				<th class="text-center">ID</th>
+				<th class="text-center">Başlık</th>
+				<th class="text-center">Alt başlık</th>
+				<th class="text-center">Açıklama</th>
+				<th class="text-center">Genel Not Ort.</th>
+				<th class="text-center">Tarih</th>
+				<th class="text-center">İşlemler</th>
 			</tr>
 
 			<tbody>
@@ -20,13 +20,13 @@
 					<ItemTemplate>
 
 						<tr>
-							<th><%# Eval("ID") %></th>
-							<td><%# Eval("Başlık") %></td>
-							<td><%# Eval("Altbaşlık") %></td>
-							<td><%# Eval("Açıklama") %></td>
-							<td><%# Eval("NotOrt") %></td>
-							<td><%# Eval("Tarih") %></td>
-							<td>
+							<th class="text-center"><%# Eval("ID") %></th>
+							<td class="text-center"><%# Eval("Başlık") %></td>
+							<td class="text-center"><%# Eval("Altbaşlık") %></td>
+							<td class="text-center"><%# Eval("Açıklama") %></td>
+							<td class="text-center"><%# Eval("NotOrt") %></td>
+							<td class="text-center"><%# Eval("Tarih") %></td>
+							<td class="text-center">
 								<asp:HyperLink ID="HyperLink1" NavigateUrl='<%# "AdminEgitimSil.aspx?ID=" + Eval("ID") %>' runat="server" CssClass="btn btn-danger">Sil</asp:HyperLink>
 								<asp:HyperLink ID="HyperLink2" NavigateUrl='<%# "AdminEgitimGüncelle.aspx?ID=" + Eval("ID") %>' runat="server" CssClass="btn btn-warning">Güncelle</asp:HyperLink>
 							</td>
@@ -36,7 +36,7 @@
 				</asp:Repeater>
 			</tbody>
 		</table>
-		<asp:HyperLink NavigateUrl="~/AdminTecrübeEkle.aspx" ID="HyperLink3" runat="server" CssClass="btn btn-primary">Yeni Ekle</asp:HyperLink>
+		<asp:HyperLink NavigateUrl="~/AdminEgitimEkle.aspx" ID="HyperLink3" runat="server" CssClass="btn btn-primary">Yeni Ekle</asp:HyperLink>
 	</form>
 </asp:Content>
 
