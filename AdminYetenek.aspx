@@ -1,4 +1,4 @@
-﻿<%@ Page Title="" Language="C#" MasterPageFile="~/Admin.master" AutoEventWireup="true" CodeFile="AdminOdul.aspx.cs" Inherits="AdminOdul" %>
+﻿<%@ Page Title="" Language="C#" MasterPageFile="~/Admin.master" AutoEventWireup="true" CodeFile="AdminYetenek.aspx.cs" Inherits="AdminYetenek" %>
 
 <asp:Content ID="Content1" ContentPlaceHolderID="ContentPlaceHolder1" runat="Server">
 </asp:Content>
@@ -13,22 +13,22 @@
 
 			<tbody>
 				<asp:Repeater ID="Repeater1" runat="server">
-					<itemtemplate>
+					<ItemTemplate>
 
 						<tr>
 							<th class="text-center"><%# Eval("ID") %></th>
-							<td class="text-center"><%# Eval("Ödül") %></td>
+							<td class="text-center"><%# Eval("Yetenek") %></td>
 							<td class="text-center">
-								<asp:HyperLink ID="HyperLink1" NavigateUrl='<%# "AdminOdulSil.aspx?ID=" + Eval("ID") %>' runat="server" CssClass="btn btn-danger">Sil</asp:HyperLink>
-								<asp:HyperLink ID="HyperLink2" NavigateUrl='<%# "AdminOdulGüncelle.aspx?ID=" + Eval("ID") %>' runat="server" CssClass="btn btn-warning">Güncelle</asp:HyperLink>
+								<asp:HyperLink ID="HyperLink1" NavigateUrl='<%# "AdminYetenekSil.aspx?ID=" + Eval("ID") %>' runat="server" CssClass="btn btn-danger">Sil</asp:HyperLink>
+								<asp:HyperLink ID="HyperLink2" NavigateUrl='<%# "AdminYetenekGüncelle.aspx?ID=" + Eval("ID") %>' runat="server" CssClass="btn btn-warning">Güncelle</asp:HyperLink>
 							</td>
 						</tr>
 
-					</itemtemplate>
+					</ItemTemplate>
 				</asp:Repeater>
 			</tbody>
 		</table>
-		<asp:HyperLink NavigateUrl="~/AdminOdulEkle.aspx" ID="HyperLink3" runat="server" CssClass="btn btn-primary">Yeni Ekle</asp:HyperLink>
+		<asp:HyperLink NavigateUrl="~/AdminYetenekEkle.aspx" ID="HyperLink3" runat="server" CssClass="btn btn-primary">Yeni Ekle</asp:HyperLink>
 	</form>
 </asp:Content>
 

@@ -11,7 +11,7 @@
     <Shape ID="DesignTable:Eğitim" ZOrder="2" X="1181" Y="246" Height="267" Width="300" AdapterExpanded="true" DataTableExpanded="true" OldAdapterHeight="0" OldDataTableHeight="0" SplitterPosition="140" />
     <Shape ID="DesignTable:Hobiler" ZOrder="5" X="484" Y="569" Height="115" Width="188" AdapterExpanded="true" DataTableExpanded="true" OldAdapterHeight="0" OldDataTableHeight="0" SplitterPosition="64" />
     <Shape ID="DesignTable:Ödüller" ZOrder="1" X="727" Y="522" Height="191" Width="240" AdapterExpanded="true" DataTableExpanded="true" OldAdapterHeight="0" OldDataTableHeight="0" SplitterPosition="64" />
-    <Shape ID="DesignTable:Yetenekler" ZOrder="4" X="1013" Y="528" Height="115" Width="206" AdapterExpanded="true" DataTableExpanded="true" OldAdapterHeight="0" OldDataTableHeight="0" SplitterPosition="64" />
+    <Shape ID="DesignTable:Yetenekler" ZOrder="4" X="1013" Y="528" Height="191" Width="270" AdapterExpanded="true" DataTableExpanded="true" OldAdapterHeight="0" OldDataTableHeight="0" SplitterPosition="64" />
   </Shapes>
   <Connectors />
 </DiagramLayout>
