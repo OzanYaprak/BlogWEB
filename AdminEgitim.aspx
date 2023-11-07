@@ -6,13 +6,13 @@
 	<form id="Form1" runat="server">
 		<table class="table table-bordered">
 			<tr>
-				<th class="text-center">ID</th>
-				<th class="text-center">Başlık</th>
-				<th class="text-center">Alt başlık</th>
-				<th class="text-center">Açıklama</th>
-				<th class="text-center">Genel Not Ort.</th>
-				<th class="text-center">Tarih</th>
-				<th class="text-center">İşlemler</th>
+				<th class="text-center" style="background-color:cadetblue">ID</th>
+				<th class="text-center" style="background-color:cadetblue">Başlık</th>
+				<th class="text-center" style="background-color:cadetblue">Alt başlık</th>
+				<th class="text-center" style="background-color:cadetblue">Açıklama</th>
+				<th class="text-center" style="background-color:cadetblue">Genel Not Ort.</th>
+				<th class="text-center" style="background-color:cadetblue">Tarih</th>
+				<th class="text-center" style="background-color:cadetblue">İşlemler</th>
 			</tr>
 
 			<tbody>
