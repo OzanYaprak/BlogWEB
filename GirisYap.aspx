@@ -39,14 +39,14 @@
 								<span class="input-group-text"><i class="fas fa-key"></i></span>
 							</div>
 							<%--<input type="password" class="form-control" placeholder="password">--%>
-							<asp:TextBox ID="TextBoxPassword" runat="server" CssClass="form-control" PlaceHolder="Şifre"></asp:TextBox>
+							<asp:TextBox ID="TextBoxPassword" runat="server" CssClass="form-control" PlaceHolder="Şifre" TextMode="Password"></asp:TextBox>
 						</div>
 						<div class="row align-items-center remember">
 							<input type="checkbox">Beni hatırla
 				
 						</div>
 						<div class="form-group">
-							<asp:Button ID="ButtonGiris" runat="server" Text="Giriş"  CssClass="btn float-right login_btn"/>
+							<asp:Button ID="ButtonGiris" runat="server" Text="Giriş"  CssClass="btn float-right login_btn" OnClick="ButtonGiris_Click"/>
 							<%--<input type="submit" value="Giriş" class="btn float-right login_btn">--%>
 						</div>
 					</form>
